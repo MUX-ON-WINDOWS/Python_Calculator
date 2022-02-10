@@ -1,4 +1,5 @@
 from cmath import pi
+import cmath
 import math  # import math module
 
 
@@ -72,6 +73,6 @@ elif select == 6:
 elif select == 7:
     number_1 = int(input("Enter your number: "))
     print(number_1, "*", "π", "=",
-                    pical(number_1, math.pi))
+                    pical(number_1, cmath.pi))
 else:
     print("Please select an valid number.")
