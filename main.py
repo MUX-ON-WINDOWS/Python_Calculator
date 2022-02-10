@@ -8,7 +8,7 @@ def multiply(num1, num2):
     return num1 * num2
 def divide(num1, num2):
     return num1 / num2
-def pitotal(num1, num2):
+def pical(num1, num2):
     return num1 * num2
 
 print("Pick calculated function -\n" \
@@ -61,6 +61,6 @@ elif select == 6:
 elif select == 7:
     number_1 = int(input("Enter your number: "))
     print(number_1, "=",
-                    pitotal(number_1, math.pi))
+                    pical(number_1, math.pi))
 else:
     print("Invalid input")
