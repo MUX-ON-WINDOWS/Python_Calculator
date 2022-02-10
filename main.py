@@ -63,4 +63,4 @@ elif select == 7:
     print(number_1, "=",
                     pical(number_1, math.pi))
 else:
-    print("Invalid input")
+    print("Please select an valid number.")
