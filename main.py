@@ -11,16 +11,17 @@ def divide(num1, num2):
 def pical(num1, num2):
     return num1 * num2
 
-print("Pick calculated function -\n" \
+print("Pick calculation option: \n" \
         "1. Add (+)\n" \
         "2. Subtract (-)\n" \
         "3. Multiply (*)\n" \
         "4. Divide (/)\n" \
-        "5. Sqaure root\n" \
-        "6. raised to the power\n" \
-        "7. Calculated PI\n")
+        "5. Sqaure root (√)\n" \
+        "6. raised to the power (^)\n" \
+        "7. Calculated PI (π) \n")
 
-select = int(input("Select operations form 1, 2, 3, 4, 5, 6 :"))
+select = int(input("Select your calculation option: \n" \
+                    "1, 2, 3, 4, 5, 6, 7: \n"))
 
 # Add
 if select == 1:
@@ -60,7 +61,7 @@ elif select == 6:
 #Calculated with PI
 elif select == 7:
     number_1 = int(input("Enter your number: "))
-    print(number_1, "=",
+    print(number_1, "*", "π", "=",
                     pical(number_1, math.pi))
 else:
     print("Please select an valid number.")
