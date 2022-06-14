@@ -1,7 +1,11 @@
+from banner import banner
 from cmath import pi
-import cmath
-import math  # import math module
 
+banner()
+
+import cmath
+import math
+import const
 
 def add(num1, num2):
     return num1 + num2
@@ -22,15 +26,7 @@ def divide(num1, num2):
 def pical(num1, num2):
     return num1 * num2
 
-
-print("Pick calculation option: \n"
-      "1. Add (+)\n"
-      "2. Subtract (-)\n"
-      "3. Multiply (*)\n"
-      "4. Divide (/)\n"
-      "5. Sqaure root (√)\n"
-      "6. raised to the power (^)\n"
-      "7. Calculated PI (π) \n")
+print(const.options)
 
 select = int(input("Select your calculation option: \n"
                    "1, 2, 3, 4, 5, 6, 7: \n"))
